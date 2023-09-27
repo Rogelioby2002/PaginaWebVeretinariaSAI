@@ -329,7 +329,7 @@ p{
 
 @media(max-width:991px){
     .menu{
-        padding: 3opx;
+        padding: 30px;
     }
     .menu label{
         display: initial;
