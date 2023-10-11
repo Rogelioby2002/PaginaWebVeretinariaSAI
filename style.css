@@ -78,6 +78,12 @@ p{
 
 .header-content{
     padding: 100px 0;
+    background: linear-gradient(
+        180deg,
+        rgb(119, 33, 225) 0%,
+        rgb(110, 40, 249) 51%,
+        rgb(153, 32, 246) 100%
+    );
     display: flex;
     align-items: center;
     
@@ -133,6 +139,7 @@ p{
 .about-content{
     display: flex;
     position: relative;
+    
 }
 .ab1{
     position: absolute;

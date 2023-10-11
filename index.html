@@ -6,38 +6,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="inicio">
       <div class="menu container">
-        <a href="#" class="logo"> <img src="images/logo.png" alt="" /></a>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt=""
+        /></a>
         <input type="checkbox" id="menu" />
         <label for="menu">
           <img src="images/menu.svg" class="menu-icono" alt="" />
         </label>
         <nav class="navbar">
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Quines Somos</a></li>
+            <li><a href="#inicio" target="_self">Inicio</a></li>
+            <li><a href="#quienes_somos">Quienes Somos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="#contactanos">Contactenos</a></li>
           </ul>
         </nav>
         <div clase="socials-1">
-          <a href="#"><img src="images/r1.svg" alt="" /></a>
-          <a href="#"><img src="images/r2.svg" alt="" /></a>
-          <a href="#"><img src="images/r3.svg" alt="" /></a>
+          <a href="https://www.instagram.com/vetrondon/" target="_blank"
+            ><img src="images/r1.svg" alt=""
+          /></a>
+          <a href="mailto:rondon@veterinariarondon.com" target="_blank"
+            ><img src="images/r2.svg" alt=""
+          /></a>
+          <a href="https://www.facebook.com/vetrondon" target="_blank"
+            ><img src="images/r3.svg" alt=""
+          /></a>
         </div>
       </div>
-
       <div class="header-content container">
         <div class="header-txt">
           <h1>VETERINARIA SAI</h1>
           <p></p>
-          <a href="#" class="btn-1">informacion</a>
+          <a href="https://bit.ly/GodsAngels2" target="_blank" class="btn-1"
+            >Contactanos</a
+          >
         </div>
         <div class="header-img">
           <img src="images/header.webp" alt="" />
@@ -45,7 +53,7 @@
       </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="quienes_somos">
       <div class="about-content container">
         <img class="ab1" src="images/ab1.png" alt="" />
         <img class="ab2" src="images/ab1.png" alt="" />
@@ -62,7 +70,12 @@
             de Ciencias Veterinarias y Decana Nacional del Colegio Médico
             Veterinario del Perú.
           </p>
-          <a href="#" class="btn-2">informacion</a>
+          <a
+            href="https://www.linkedin.com/in/mar%C3%ADa-daniela-navas-rond%C3%B3n-618773142/?originalSubdomain=ve"
+            target="_blank"
+            class="btn-2"
+            >informacion</a
+          >
         </div>
       </div>
     </section>
@@ -92,65 +105,80 @@
     </section>
 
     <main class="contact container">
-      <div class="contact-table">
-        <span>Servicios</span>
-        <h3>Servicios</h3>
+      <div class="contact-table" id="servicios">
+        <span>Tenemos todo lo que </span>
+        <h3>tu mascota necesita</h3>
 
         <table class="Servicios">
           <tr>
-            <th></th>
             <th>Servicio</th>
+
             <th>Descripcion</th>
           </tr>
 
           <tr>
-            <td>Peluquería para mascotas</td>
-            <td>--</td>
+            <td>Consultas</td>
+
             <td>
-              Cuidamos el aspecto y la salud de tu engreído haciendo uso de
-              productos de la más alta calidad.
+              En God’s Angels nos preocupamos por mantener la salud de nuestros
+              pacientes en las mejores condiciones, por ello contamos con área
+              de medicina preventiva.
             </td>
           </tr>
           <tr>
-            <td>Internamientos de última generación</td>
-            <td>--</td>
+            <td>Vacunas</td>
+
             <td>
-              Área de internados de última generación y el mejor personal
-              dedicado las 24 horas al cuidado tu mascota.
+              Cuando vacunamos a nuestras mascotas evitamos que desarrollen
+              enfermedades infecciosas y conferimos un grado de inmunidad.
+              Además, nos brinda beneficios para la salud de la población en
+              general.
             </td>
           </tr>
           <tr>
-            <td>Pet Shop</td>
-            <td>--</td>
+            <td>Radiología (Rayos X)</td>
+
             <td>
-              Tenemos la mejor y más variada tienda de artículos para mascotas
-              de toda Lima.
+              Contamos con el mejor equipo de Rayos X Digital que nos entrega
+              muy buena calidad en sus imágenes. La radiografía ha sido, es y
+              seguirá siendo en el futuro una herramienta de diagnóstico
+              esencial en la clínica veterinaria.
             </td>
           </tr>
           <tr>
             <td>Cirugías</td>
-            <td>--</td>
+
             <td>
-              Cirugía veterinaria en las más modernas instalaciones y con los
-              cirujanos más experimentados.
+              Nuestra área de cirugía tiene el equipo y personal altamente
+              capacitado para realizar diversos tipos de procedimientos con el
+              mayor rango de seguridad anestésica ya que se utiliza anestesia
+              inhalada y el paciente se encuentra monitoreado durante todo el
+              procedimiento.
             </td>
           </tr>
           <tr>
-            <td>Laboratorio/td></td>
-            <td>--</td>
+            <td>Pet Shop y Accesorios</td>
+
             <td>
-              Disponemos de los mejores analistas y el más moderno laboratorio
-              de muestras.
+              En God’s Angels encontraras una amplia variedad de juguetes,
+              camitas, ropas, correas, areneros, transportadores, comidas,
+              accesorios y muchas cosas más para tu engreído.
             </td>
           </tr>
         </table>
       </div>
 
       <div class="form-content">
-        <h2>Suscribete a nuestras noticias</h2>
+        <h2>Reserva tu cita:</h2>
         <form>
           <input class="campo" type="text" name="name" placeholder="Nombre" />
           <input class="campo" type="email" name="email" placeholder="Correo" />
+          <input
+            class="campo"
+            type="text"
+            name="descripcion"
+            placeholder="Descripcion"
+          />
           <input class="btn-2" type="submit" value="enviar" />
         </form>
       </div>
@@ -158,22 +186,50 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer-links">
+        <div class="footer-links" id="contactanos">
           <div class="link-img">
             <img src="images/logo.svg" alt="" />
             <div class="socials-2">
-              <a href="#"><img src="images/r1.svg" alt="" /></a>
-              <a href="#"><img src="images/r2.svg" alt="" /></a>
-              <a href="#"><img src="images/r3.svg" alt="" /></a>
+              <a href="https://www.instagram.com/vetrondon/" target="_blank"
+                ><img src="images/r1.svg" alt=""
+              /></a>
+              <a href="mailto:rondon@veterinariarondon.com" target="_blank"
+                ><img src="images/r2.svg" alt=""
+              /></a>
+              <a href="https://www.facebook.com/vetrondon" target="_blank"
+                ><img src="images/r3.svg" alt=""
+              /></a>
             </div>
           </div>
 
           <div class="link">
             <h3>CONTACTANOS</h3>
             <ul>
-              <li><a href="#">Direccion</a><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15600.094570698997!2d-76.98633488388792!3d-12.178793522448592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b91411e8a2a9%3A0xff65627dc231fa90!2sVETERINARIA%20COTITA!5e0!3m2!1ses-419!2spe!4v1695781505457!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-              <li><a href="#">Telefono: 99445618</a></li>
-              <li><a href="#">WhatsApp</a></li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Rond%C3%B3n/@-12.1201761,-77.0000361,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c7f0606423ef:0x5ebcb5b11388f07e!8m2!3d-12.1201814!4d-76.9974612!16s%2Fg%2F1v4k7k_g?hl=es&shorturl=1"
+                  target="_blank"
+                  >Direccion</a
+                ><iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15600.094570698997!2d-76.98633488388792!3d-12.178793522448592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b91411e8a2a9%3A0xff65627dc231fa90!2sVETERINARIA%20COTITA!5e0!3m2!1ses-419!2spe!4v1695781505457!5m2!1ses-419!2spe"
+                  width="100%"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </li>
+              <li>
+                <a href="tel:+51998849810" target="_blank"
+                  >Telefono: +51998849810</a
+                >
+              </li>
+              <li>
+                <a href="https://bit.ly/GodsAngels2" target="_blank"
+                  >WhatsApp</a
+                >
+              </li>
             </ul>
           </div>
         </div>
